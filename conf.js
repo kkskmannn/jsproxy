@@ -29,7 +29,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        [location.host]: 1,
+        'eee.kkskman125.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -37,7 +37,7 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        'kkskman114.tk': 1,
+        //'kkskman114.tk': 1,
       }
     }
   },
